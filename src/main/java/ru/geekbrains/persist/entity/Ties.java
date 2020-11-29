@@ -5,9 +5,8 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-// при созданнии новой сущности не забыть прописать ее в Hibernate конфиг. файле
-// при созданиипри созданнии  СОСТАВНОЙ сущности СОСТАВНОЙ ПЕРВИЧНЫЙ ключ не подойдет
-@Entity            // - не сработает на запросах,  нужен простой отдельный ID
+
+@Entity
 @Table(name = "ties")
 public class Ties{
 @Id
